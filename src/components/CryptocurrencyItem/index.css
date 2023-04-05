@@ -1,0 +1,10 @@
+/* Write your CSS code here */
+.currency_logo {
+  height: 50px;
+  padding-right: 5px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

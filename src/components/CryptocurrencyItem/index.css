@@ -1,10 +1,16 @@
 /* Write your CSS code here */
 .currency_logo {
   height: 50px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 .card {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.li {
+  list-style-type: none;
+}
+.p {
+  font-size: 19px;
 }

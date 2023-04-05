@@ -6,16 +6,16 @@ const CryptocurrencyItem = props => {
   const {name, euroValue, id, currencyLogo, usdValue} = cryptoItem
   console.log(cryptoItem)
   return (
-    <div className="crypto_details">
-      <div className="card">
+    <li className="crypto_details">
+      <div className="card p">
         <img src={currencyLogo} alt={name} className="currency_logo" />
-        <h1>{name}</h1>
+        <p>{name}</p>
       </div>
       <div className="price_container">
-        <h1 className="price">{usdValue}</h1>
-        <h1 className="price">{euroValue}</h1>
+        <p className="price p">{usdValue}</p>
+        <p className="price p">{euroValue}</p>
       </div>
-    </div>
+    </li>
   )
 }
 
